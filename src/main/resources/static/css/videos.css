@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8 feb. 2022, 18:07:34
+    Author     : Kaled Quesada
+*/
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    }
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+}
+
+header .logo{
+    
+    color: #ff00ff;
+    text-transform: uppercase;
+    cursor: pointer;
+ }
+.container{
+    position: absolute;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #66ffff;
+    z-index: 2;
+        
+    
+}
+    
+.container video{
+    
+    
+    
+}
